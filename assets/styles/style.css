@@ -1,0 +1,19 @@
+body {
+  color: blue; }
+  body header .navbar-nav {
+    width: 100%;
+    text-align: center; }
+    body header .navbar-nav > li {
+      float: none;
+      display: inline-block; }
+  body header .navbar-default {
+    background-color: #565656;
+    border-color: #565656;
+    margin: 0; }
+    body header .navbar-default .navbar-nav > li > a {
+      color: #dedede;
+      font-family: "LucidaGrande", Times, serif; }
+  body .imgCarousel {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

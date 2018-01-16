@@ -1,0 +1,32 @@
+body {
+	//background-color:red;
+	color:blue;
+
+	header{
+		.navbar-nav {
+			width: 100%;
+			text-align: center;
+			> li {
+				float: none;
+				display: inline-block;
+			}
+		}
+
+		.navbar-default{
+			background-color: #565656;
+			border-color: #565656;
+			margin:0;
+
+			.navbar-nav>li>a{
+				color: #dedede;
+				font-family: "LucidaGrande", Times, serif;
+			}
+		}
+	}
+
+	.imgCarousel{
+		width: 100%;
+	}
+
+
+}
