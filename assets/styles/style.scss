@@ -10,10 +10,6 @@ body {
 				float: none;
 				display: inline-block;
 			}
-
-			.a:hover {
-				background-color: yellow;
-			}
 		}
 
 		.navbar-default{
@@ -86,11 +82,65 @@ body {
 					}		
 				}
 			}
+
+			.partners{
+
+				width: 100%;
+				padding: 0;
+
+				.partner{
+					//font-weight: bold;
+					//background-color: #bababa;
+					color: #535353;
+					font-size: 12px;
+					width: 100%;
+					margin: 30px 0 0 0;
+					display: flex;
+					justify-content: center;
+				}
+
+				.logos{
+					//background-color: #cecece;
+					margin: 1% 5% 1% 5%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+
+					.logo{
+						margin: 5px 20px 5px 20px;
+					}
+				}
+			}
+
+			footer{
+				width: 100%;
+				padding: 0;
+				//background-color: #cecece;
+				margin-bottom: 30px;
+				display: flex;
+				justify-content: space-between;
+
+				.footerText{
+					//background-color: #bebeb5;
+					color: black;
+					font-weight: bold;	
+					font-size: 12px;
+				}
+
+				.footerLogos{
+					display: flex;
+					justify-content: flex-end;
+					//background-color: #ceceab;
+
+					.logo{
+						margin-left:1em;
+					}
+				}
+			}
 		}
 	}
 
 	.flex-container {
-		text-transform: uppercase;
 		display: flex;
 		justify-content: space-between;
 		//background-color: DodgerBlue;

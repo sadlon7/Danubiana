@@ -6,8 +6,6 @@ body {
     body header .navbar-nav > li {
       float: none;
       display: inline-block; }
-    body header .navbar-nav .a:hover {
-      background-color: yellow; }
   body header .navbar-default {
     background-color: #565656;
     border-color: #565656;
@@ -47,8 +45,39 @@ body {
           font-weight: bold; }
           body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBoldDown a {
             color: black; }
+    body .containerWithSpecialWidth .flex-container .partners {
+      width: 100%;
+      padding: 0; }
+      body .containerWithSpecialWidth .flex-container .partners .partner {
+        color: #535353;
+        font-size: 12px;
+        width: 100%;
+        margin: 30px 0 0 0;
+        display: flex;
+        justify-content: center; }
+      body .containerWithSpecialWidth .flex-container .partners .logos {
+        margin: 1% 5% 1% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+        body .containerWithSpecialWidth .flex-container .partners .logos .logo {
+          margin: 5px 20px 5px 20px; }
+    body .containerWithSpecialWidth .flex-container footer {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between; }
+      body .containerWithSpecialWidth .flex-container footer .footerText {
+        color: black;
+        font-weight: bold;
+        font-size: 12px; }
+      body .containerWithSpecialWidth .flex-container footer .footerLogos {
+        display: flex;
+        justify-content: flex-end; }
+        body .containerWithSpecialWidth .flex-container footer .footerLogos .logo {
+          margin-left: 1em; }
   body .flex-container {
-    text-transform: uppercase;
     display: flex;
     justify-content: space-between; }
     body .flex-container .container-left-align {
