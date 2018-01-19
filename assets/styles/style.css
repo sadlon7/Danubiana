@@ -17,8 +17,36 @@ body {
       font-family: "Arial", Times, serif; }
   body .imgCarousel {
     width: 100%; }
+  body .containerGrayBackground {
+    background-color: #f2f2f2;
+    margin-top: 5px; }
   body .containerWithSpecialWidth {
     max-width: 850px; }
+    body .containerWithSpecialWidth .flex-container .pageMap {
+      list-style: none;
+      padding: 5px;
+      margin-top: 10px;
+      justify-content: space-between;
+      width: 24%;
+      height: 210px;
+      position: relative; }
+      body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell {
+        margin-bottom: 5px;
+        color: #858585; }
+        body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell a {
+          color: #858585;
+          text-transform: none;
+          text-decoration: none; }
+        body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBold {
+          font-weight: bold; }
+          body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBold a {
+            color: black; }
+        body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBoldDown {
+          position: absolute;
+          bottom: 0;
+          font-weight: bold; }
+          body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBoldDown a {
+            color: black; }
   body .flex-container {
     text-transform: uppercase;
     display: flex;
