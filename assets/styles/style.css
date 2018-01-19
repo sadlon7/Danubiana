@@ -6,14 +6,41 @@ body {
     body header .navbar-nav > li {
       float: none;
       display: inline-block; }
+    body header .navbar-nav .a:hover {
+      background-color: yellow; }
   body header .navbar-default {
     background-color: #565656;
     border-color: #565656;
     margin: 0; }
     body header .navbar-default .navbar-nav > li > a {
       color: #dedede;
-      font-family: "LucidaGrande", Times, serif; }
+      font-family: "Arial", Times, serif; }
   body .imgCarousel {
     width: 100%; }
+  body .containerWithSpecialWidth {
+    max-width: 850px; }
+  body .flex-container {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between; }
+    body .flex-container .container-left-align {
+      text-align: left;
+      color: red; }
+    body .flex-container .container-right-align {
+      text-align: right;
+      color: black; }
+  body .flex-container > div {
+    margin: 10px;
+    font-size: 18px; }
+  body .column-home-tiles {
+    display: flex;
+    justify-content: space-between; }
+    body .column-home-tiles .home-tile {
+      margin: 3px;
+      font-size: 18px; }
+      body .column-home-tiles .home-tile img {
+        width: 100%; }
+  body .rowMargin0 {
+    margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,10 @@ body {
 				float: none;
 				display: inline-block;
 			}
+
+			.a:hover {
+				background-color: yellow;
+			}
 		}
 
 		.navbar-default{
@@ -19,7 +23,7 @@ body {
 
 			.navbar-nav>li>a{
 				color: #dedede;
-				font-family: "LucidaGrande", Times, serif;
+				font-family: "Arial", Times, serif;
 			}
 		}
 	}
@@ -28,5 +32,51 @@ body {
 		width: 100%;
 	}
 
+	.containerWithSpecialWidth{
+		max-width: 850px;
+	}
+
+	.flex-container {
+		text-transform: uppercase;
+		display: flex;
+		justify-content: space-between;
+		//background-color: DodgerBlue;
+
+		.container-left-align{
+			text-align: left;
+			color: red;
+		}
+
+		.container-right-align{
+			text-align: right;
+			color: black;
+		}
+	}
+
+	.flex-container > div {
+		//background-color: #f1f1f1;
+		margin: 10px;
+		font-size: 18px;
+	}
+
+	.column-home-tiles{
+		//background-color: red;
+		display: flex;
+		justify-content: space-between;
+
+		.home-tile{
+			//background-color: red;
+			margin: 3px;
+			font-size: 18px;
+
+			img{
+				width:100%;
+			}
+		}
+	}
+
+	.rowMargin0{
+		margin:0;
+	}
 
 }
