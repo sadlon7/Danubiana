@@ -116,13 +116,14 @@ body {
       color: #565656;
       text-decoration: none;
       margin: 0 25px 0 25px;
+      text-transform: uppercase;
       font-size: 2.5em; }
       @media screen and (max-width: 350px) {
         body .subMenuBig a {
           font-size: 1.7em; } }
     body .subMenuBig a:hover {
       color: #d80000; }
-    body .subMenuBig .active {
+    body .subMenuBig a.active {
       color: red; }
   body .subMenuSmall {
     display: flex;
@@ -137,7 +138,7 @@ body {
       margin: 0 15px 0 15px; }
     body .subMenuSmall a:hover {
       color: #d80000; }
-    body .subMenuSmall .active {
+    body .subMenuSmall a.active {
       color: red; }
   body .flex-container > div {
     margin: 10px;
