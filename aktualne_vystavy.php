@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Danubiana</title>
-	<meta name="description" content="">
-	<!-- <link rel="shortcut icon" href="favicon.png"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="assets/styles/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<?php 
+include ("head.php"); 
+includeHead("Aktuálne výstavy | Danubiana");
+?>
 
-</head>
 <body>
 
 	<header>
@@ -20,16 +10,16 @@
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<a href="index.html"><img class="imgCarousel" src="assets/images/logos/danubianaLogo.png" alt="carousel" style="width: 30px; height: 100%;"></a>
+						<a href="index.php"><img class="imgCarousel" src="assets/images/logos/danubianaLogo.png" alt="carousel" style="width: 30px; height: 100%;"></a>
 
-						<li><a href="o_nas.html">DANUBIANA</a></li>
-						<li><a href="aktualne_vystavy.html"  class="active">VYSTAVY</a></li>
-						<li><a href="zbierka_meulensteen.html">ZBIERKA</a></li>
-						<li><a href="park.html">PARK</a></li>
-						<li><a href="art_shop.html">ARTSHOP</a></li>
-						<li><a href="art_cafe.html">ART CAFFE</a></li>
-						<li><a href="klub.html">KLUB</a></li>
-						<li><a href="kontakt.html">KONTAKT</a></li>
+						<li><a href="o_nas.php">DANUBIANA</a></li>
+						<li><a href="aktualne_vystavy.php"  class="active">VYSTAVY</a></li>
+						<li><a href="zbierka_meulensteen.php">ZBIERKA</a></li>
+						<li><a href="park.php">PARK</a></li>
+						<li><a href="art_shop.php">ARTSHOP</a></li>
+						<li><a href="art_cafe.php">ART CAFFE</a></li>
+						<li><a href="klub.php">KLUB</a></li>
+						<li><a href="kontakt.php">KONTAKT</a></li>
 
 						<a href=""><img class="imgCarousel" src="assets/images/logos/flagUK.png" alt="carousel" style="width: 20px; height: 100%;"></a>
 					</ul>
@@ -43,9 +33,9 @@
 		<div class="row">
 			<!-- <div class="flex-container"> -->
 				<div class="subMenuSmall">
-					<a href="minule_vystavy.html">MINULÉ VÝSTAVY</a>
-					<a href="aktualne_vystavy.html" class="active">AKTUÁLNE VÝSTAVY</a>
-					<a href="buduce_vystavy.html">BUDÚCE VÝSTAVY</a>
+					<a href="minule_vystavy.php">MINULÉ VÝSTAVY</a>
+					<a href="aktualne_vystavy.php" class="active">AKTUÁLNE VÝSTAVY</a>
+					<a href="buduce_vystavy.php">BUDÚCE VÝSTAVY</a>
 				</div>
 
 				<div class="subMenuBig">
@@ -62,7 +52,7 @@
 		<div class="container containerWithSpecialWidth">
 			<div class="row">
 
-				<a href="vystava01.html">
+				<a href="vystava01.php">
 					<div class="expositionRow">
 						<img src="assets\images\carousel-galery\zbierka_danubiana\litografia(1).jpg">
 						<div class="expositionLabel">
@@ -75,7 +65,7 @@
 					</div>
 				</a>
 
-				<a href="">
+				<a href="vystava01.php">
 					<div class="expositionRow">
 						<img src="assets\images\carousel-galery\o_nas\DSC_1618.jpg">
 						<div class="expositionLabel">
@@ -88,7 +78,7 @@
 					</div>
 				</a>
 
-				<a href="">
+				<a href="vystava01.php">
 					<div class="expositionRow">
 						<img src="assets\images\carousel-galery\o_nas\DSC_3052.jpg">
 						<div class="expositionLabel">
@@ -128,82 +118,9 @@
 		</div>
 	</div> -->
 
+	<?php include ("footer.php"); ?>
 
-	<div class="containerGrayBackground">
-		<div class="container containerWithSpecialWidth">
-			<div class="row">
-				<div class="flex-container">
-
-					<ul class="pageMap">
-						<li class="pageMapCell pageMapCellBold">Danubiana</li>
-						<li class="pageMapCell"><a href="o_nas.html">O nás</a></li>
-						<li class="pageMapCell"><a href="historia.html">História</a></li>
-						<li class="pageMapCell"><a href="architektura.html">Architektúra</a></li>
-						<li class="pageMapCell"><a href="meulensteen.html">Zakladatelia</a></li>
-						<li class="pageMapCell"><a href="dokumenty.html">Dokumenty</a></li>
-						<li class="pageMapCell pageMapCellBoldDown"><a href="art_shop.html">Artshop</a></li>
-					</ul>
-
-					<ul class="pageMap">
-						<li class="pageMapCell pageMapCellBold">Výstavy</li>
-						<li class="pageMapCell"><a href="aktualne_vystavy.html">Aktuálne výstavy</a></li>
-						<li class="pageMapCell"><a href="buduce_vystavy.html">Budúce výstavy </a></li>
-						<li class="pageMapCell"><a href="minule_vystavy.html">Minulé výstavy</a></li>
-						<li class="pageMapCell pageMapCellBoldDown"><a href="art_cafe.html">Art Cafe</a></li>
-					</ul>
-
-					<ul class="pageMap">
-						<li class="pageMapCell pageMapCellBold">Zbierka</li>
-						<li class="pageMapCell"><a href="zbierka_meulensteen.html">Meulensteen</a></li>
-						<li class="pageMapCell"><a href="zbierka_danubiana.html">Danubiana</a></li>
-						<li class="pageMapCell"><a href="zbierka_umelci.html.">Umelci</a></li>
-						<li class="pageMapCell"><a href="zbierka_zberatelia.html">Zberatelia</a></li>
-						<li class="pageMapCell pageMapCellBoldDown"><a href="klub.html">Klub</a></li>
-					</ul>
-
-					<ul class="pageMap">
-						<li class="pageMapCell pageMapCellBold">Park</li>
-						<li class="pageMapCell"><a href="park.html">Meulensteen</a></li>
-						<li class="pageMapCell"><a href="park.html">Danubiana</a></li>
-						<li class="pageMapCell"><a href="park.html">Umelci</a></li>
-						<li class="pageMapCell pageMapCellBoldDown"><a href="">Kontakt</a></li>
-					</ul>
-
-				</div>
-
-				<div class="flex-container">
-					<div class="partners">
-						<div class="partner">Partneri múzea</div>
-						<div class="logos">
-							<div class="logo"><a href="http://www.culture.gov.sk/" target="blank"><img src="assets/images/logos/partners/Ministerstvo-logo.png"></a></div>
-							<div class="logo"><a href="https://www.slsp.sk/sk" target="blank"><img src="assets/images/logos/partners/SLSP_logo.png"></a></div>
-							<div class="logo"><a href="https://www.svp.sk" target="blank"><img src="assets/images/logos/partners/SVP_logo.png"></a></div>
-							<div class="logo"><a href="http://www.bratislava.sk/" target="blank"><img src="assets/images/logos/partners/Bratislava_logo.png"></a></div>
-						</div>
-						<div class="partner">Mediálni partneri</div>
-						<div class="logos">
-							<div class="logo"><a href="https://www.pravda.sk/" target="blank"><img src="assets/images/logos/partners/Pravda_logo.png"></a></div>
-							<div class="logo"><a href="http://www.bkis.sk/sk" target="blank"><img src="assets/images/logos/partners/BKIS_logo.png"></a></div>
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="flex-container">
-					<footer>
-						<div class="footerText"> 
-							2011 - 2017 © Danubiana - Centrum moderného umenia, n.o. Všetky práva vyhradené. Reprodukcie umeleckých diel môžu byť použité len s písomným súhlasom majiteľa autorských práv. 
-							<br>Made In HalfPixel.sk 
-						</div>
-						<div class="footerLogos">
-							<div class="logo"><a href="https://www.facebook.com/danubianamuseum/" target="blank"><img src="assets/images/logos/fb_logo.png"></a></div>
-							<div class="logo"><a href="https://www.tripadvisor.sk/Attraction_Review-g274924-d2554497-Reviews-Meulensteen_Art_Museum-Bratislava_Bratislava_Region.html" target="blank"><img src="assets/images/logos/tripadvisor_logo.png"></a></div>
-							<div class="logo"><a href="https://www.instagram.com/danubianamuseum/" target="blank"><img src="assets/images/logos/instagram_logo.png"></a></div>
-						</div>
-					</footer>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 </body>
 </html>
