@@ -34,7 +34,25 @@ body {
     flex-wrap: wrap; }
     body .containerWithSpecialWidth h1 {
       margin: 50px 10px 0 10px;
-      color: #565656; }
+      color: #565656;
+      display: flex; }
+      body .containerWithSpecialWidth h1.expositionName {
+        color: black;
+        justify-content: center;
+        text-transform: uppercase; }
+      body .containerWithSpecialWidth h1.expositionDate {
+        margin: 10px;
+        color: red;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: bold; }
+      body .containerWithSpecialWidth h1.expositionDescription {
+        margin: 10px 10px 0 10px;
+        color: #565656;
+        justify-content: center;
+        font-size: 1.1em;
+        font-weight: bold; }
     body .containerWithSpecialWidth p {
       color: #565656;
       margin: 30px 10px 0 10px; }
@@ -115,9 +133,8 @@ body {
           text-transform: none;
           text-decoration: none; }
         body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBold {
+          color: black;
           font-weight: bold; }
-          body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBold a {
-            color: black; }
         body .containerWithSpecialWidth .flex-container .pageMap .pageMapCell.pageMapCellBoldDown {
           position: absolute;
           bottom: 0;

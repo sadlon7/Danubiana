@@ -61,6 +61,32 @@ body {
 			margin: 50px 10px 0 10px;
 			color: #565656;
 			//text-transform: capitalize;
+			display: flex;
+
+			&.expositionName{
+				color: black;
+				justify-content: center;
+				text-transform: uppercase;
+			}
+
+			&.expositionDate{
+				margin: 10px;
+				color: red;
+				justify-content: center;
+				text-transform: uppercase;
+				font-size: 1.2em;
+				font-weight: bold;
+			}
+
+			&.expositionDescription{
+				margin: 10px 10px 0 10px;
+				color: #565656;
+				justify-content: center;
+				font-size: 1.1em;
+				font-weight: bold;
+			}
+
+
 		}
 
 		p{
@@ -168,7 +194,6 @@ body {
 				justify-content: space-between;
 				width: 24%;
 				height: 210px;
-
 				position: relative;
 
 
@@ -183,10 +208,7 @@ body {
 						text-decoration: none;
 					}
 					&.pageMapCellBold{
-
-						a{
-							color: black;
-						}
+						color: black;
 						font-weight: bold;	
 					}
 
