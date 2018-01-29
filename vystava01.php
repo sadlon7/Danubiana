@@ -38,7 +38,7 @@ includeHead("OXYMORON | Danubiana");
 			</div>
 
 			<div class="subMenuBig">
-				<a href="o_nas.php">Jiří Georg Dokoupil | 1954 | CZ, D</a>
+				<a href="">Jiří Georg Dokoupil | 1954 | CZ, D</a>
 			</div>
 		</div>
 	</div>

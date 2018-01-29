@@ -63,25 +63,12 @@ includeHead("Meulensteen | Danubiana");
 		</div>
 	</div>
 
-	<div class="row rowMargin0"> 
-		<div class="column column-subpage-tiles">
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/0001_2.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/0002.jpg"></a></div>
-
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/042.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/051.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/215Foto- P. Harum.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/amerika 16-26 mei 2008 146.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/bratislava aug. 2006 099.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/CIMG2622.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/CIMG5546.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/meulensteen/cristo new york 033.jpg"></a></div>
-
-		</div>
-	</div>
-
-
-	<?php include ("footer.php"); ?>
+	<?php 
+	include ("sliderGallery.php"); 
+	generateSlides("assets/images/carousel-galery/meulensteen/");
+	include ("footer.php"); 
+	generateSliderScript();
+	?>
 
 </body>
 </html>

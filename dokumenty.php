@@ -31,56 +31,46 @@ includeHead("Dokumenty | Danubiana");
 
 	<div class="container containerWithSpecialWidth">
 		<div class="row">
-				<div class="subMenuSmall">
-					<a href="o_nas.php">O nás</a>
-					<a href="historia.php">História</a>
-					<a href="architektura.php">Architektúra</a>
-					<a href="meulensteen.php">Zakladatelia</a>
-					<a href="dokumenty.php" class="active">Dokumenty</a>
-				</div>
+			<div class="subMenuSmall">
+				<a href="o_nas.php">O nás</a>
+				<a href="historia.php">História</a>
+				<a href="architektura.php">Architektúra</a>
+				<a href="meulensteen.php">Zakladatelia</a>
+				<a href="dokumenty.php" class="active">Dokumenty</a>
+			</div>
 
-				<div class="subMenuBig">
-					<a href="o_nas.php" class="active">DOKUMENTY</a>
-				</div>
+			<div class="subMenuBig">
+				<a href="" class="active">DOKUMENTY</a>
 			</div>
 		</div>
+	</div>
 
 
-		<img class="imgMainImage" src="assets/images/dokumenty.jpg" alt="carousel">
+	<img class="imgMainImage" src="assets/images/dokumenty.jpg" alt="carousel">
 
 
-		<div class="container containerWithSpecialWidth">
-			<div class="row">
+	<div class="container containerWithSpecialWidth">
+		<div class="row">
 
-				<h1>Dokumenty</h1>
+			<h1>Dokumenty</h1>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.
+			<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.
 				
-				</p>
+			</p>
 
-			</div>
 		</div>
+	</div>
 
-		<div class="row rowMargin0"> 
-			<div class="column column-subpage-tiles">
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/6 -7 0kt. 206 bratislava 167.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/bratislava 21,22 aug.2007 (104).jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/bratislava aug. 2006 006.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG2564.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG5593.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG5811.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/danubiana rond 22 mei 014.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC01152.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC02675.jpg"></a></div>
-				<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC03986.jpg"></a></div>
-			</div>
-		</div>
+	<?php 
+	include ("sliderGallery.php"); 
+	generateSlides("assets/images/carousel-galery/o_nas/");
+	include ("footer.php"); 
+	generateSliderScript();
+	?>
 
-		<?php include ("footer.php"); ?>
-
-	</body>
-	</html>
+</body>
+</html>
 
 
 

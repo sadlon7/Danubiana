@@ -64,23 +64,12 @@ includeHead("Polakovič | Danubiana");
 		</div>
 	</div>
 
-	<div class="row rowMargin0"> 
-		<div class="column column-subpage-tiles">
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/6 -7 0kt. 206 bratislava 167.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/bratislava 21,22 aug.2007 (104).jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/bratislava aug. 2006 006.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG2564.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG5593.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/CIMG5811.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/danubiana rond 22 mei 014.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC01152.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC02675.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/polakovic/DSC03986.jpg"></a></div>
-		</div>
-	</div>
-
-
-	<?php include ("footer.php"); ?>
+	<?php 
+	include ("sliderGallery.php"); 
+	generateSlides("assets/images/carousel-galery/polakovic/");
+	include ("footer.php"); 
+	generateSliderScript();
+	?>
 
 </body>
 </html>

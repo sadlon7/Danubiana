@@ -4,7 +4,6 @@ includeHead("Danubiana | Vitajte");
 ?>
 
 <body>
-
 	<header>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container-fluid">
@@ -30,7 +29,6 @@ includeHead("Danubiana | Vitajte");
 
 	<img class="imgCarousel" src="assets/images/karusel_pohlad01.jpg" alt="carousel">
 
-
 	<div class="container containerWithSpecialWidth">
 		<div class="row">
 			<div class="flex-container">
@@ -42,21 +40,14 @@ includeHead("Danubiana | Vitajte");
 
 	<div class="row"> 
 		<div class="column column-home-tiles">
-			<div class="home-tile"><a href=""><img src="assets/images/home-tiles/MARTI LCD.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/home-tiles/park_Lcd_FullHD.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/home-tiles/QUIN LCD.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/home-tiles/zbierka_Lcd_FullHD.jpg"></a></div>
+			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/MARTI LCD.jpg"></a></div>
+			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/park_Lcd_FullHD.jpg"></a></div>
+			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/QUIN LCD.jpg"></a></div>
+			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/zbierka_Lcd_FullHD.jpg"></a></div>
 		</div>
 	</div>
-
 
 	<?php include ("footer.php"); ?>
 
 </body>
 </html>
-
-
-
-
-
-

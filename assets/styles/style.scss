@@ -3,6 +3,10 @@ body {
 	color:blue;
 	font-family: 'Quicksand', sans-serif;
 
+	.lSSlideOuter .lSPager.lSGallery{
+		display: none;
+	}
+
 	header{
 		.navbar-nav {
 			width: 100%;
@@ -119,7 +123,7 @@ body {
 					display: flex;
 					justify-content: flex-start;
 					position: relative;
-						flex-wrap: wrap;
+					flex-wrap: wrap;
 
 					.expositionLabelArtistName{
 						font-size: 2.3em;
@@ -403,4 +407,21 @@ body {
 		margin: 80px 0 0 0;
 	}
 
+	.lightSlider{
+		img{
+			height: 200px;
+
+			&.bigger{
+				width: : 100%;
+			}
+		}
+
+
+	}
+
+	#sliderBottom{
+		margin: 100px 0 0 0;
+	}
+
 }
+

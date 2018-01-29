@@ -16,10 +16,11 @@
 
   	<link rel='icon' type='image/png' href='\assets\images\logos\danubianaColorLogo.png'/>
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-	<link rel='stylesheet' href='assets/styles/style.css'>
-	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel='stylesheet' href='assets/styles/lightslider.css'>
 
-	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <link rel='stylesheet''' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.6/css/lightgallery.css' />
+	<link rel='stylesheet' href='assets/styles/style.css'>
 
 	</head>";
 

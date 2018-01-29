@@ -39,7 +39,7 @@ includeHead("Zbierka Danubiana | Danubiana");
 			</div>
 
 			<div class="subMenuBig">
-				<a href="o_nas.php" class="active">ZBIERKA DANUBIANA MEULENSTEEN ART MUSEUM</a>
+				<a href="" class="active">ZBIERKA DANUBIANA MEULENSTEEN ART MUSEUM</a>
 			</div>
 		</div>
 	</div>
@@ -60,17 +60,12 @@ includeHead("Zbierka Danubiana | Danubiana");
 		</div>
 	</div>
 
-	<div class="row rowMargin0"> 
-		<div class="column column-subpage-tiles">
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/zbierka_danubiana/_MG_1194.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/zbierka_danubiana/_MG_1196.jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/zbierka_danubiana/litografia(1).jpg"></a></div>
-			<div class="home-tile"><a href=""><img src="assets/images/carousel-galery/zbierka_danubiana/litografia.jpg"></a></div>
-		</div>
-	</div>
-
-
-	<?php include ("footer.php"); ?>
+	<?php 
+	include ("sliderGallery.php"); 
+	generateSlides("assets/images/carousel-galery/zbierka_danubiana/");
+	include ("footer.php"); 
+	generateSliderScript();
+	?>
 
 </body>
 </html>
