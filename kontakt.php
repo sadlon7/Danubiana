@@ -48,8 +48,10 @@ includeHead("KONTAKTY | Danubiana");
 				<a href="" class="active">KONTAKT</a>
 			</div>
 		</div>
-		<img class="imgMainImage" src="assets/images/kontakt.jpg" alt="carousel">
+		
 	</div>
+
+	<img class="imgMainImage" src="assets/images/kontakt.jpg" alt="carousel">
 
 	<div class="container containerWithSpecialWidth">
 		<div class="row">

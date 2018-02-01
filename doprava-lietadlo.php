@@ -3,7 +3,7 @@ include ("head.php");
 includeHead("DOPRAVA | Danubiana");
 ?>
 
-<body>
+<body> 
 
 	<nav class="navbar navbar-inverse">
 		<div class="container">
@@ -44,9 +44,9 @@ includeHead("DOPRAVA | Danubiana");
 				<a href="vstupne.php">VSTUPNÉ</a>
 			</div>
 
-<!-- 			<div class="subMenuBig">
+			<div class="subMenuBig">
 				<a href="" class="active">DOPRAVA</a>
-			</div> -->
+			</div>
 
 			<div class="transportIcons">
 				<a href="doprava-lietadlo.php">		<img class="active" src="assets/images/logos/plane.png" alt="Plane Image">		</a>

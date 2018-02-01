@@ -44,7 +44,7 @@ includeHead("Zbierka umelci | Danubiana");
 			</div>
 
 			<div class="subMenuBig">
-				<a href="">ZBIERKA UMELCI | WORKING IN PROGRESS</a>
+				<a href="" class="active">ZBIERKA UMELCI</a>
 			</div>
 		</div>
 	</div>
@@ -56,13 +56,14 @@ includeHead("Zbierka umelci | Danubiana");
 	<div class="container containerWithSpecialWidth">
 		<div class="row">
 
-			<h1>Be patient, please.</h1>
+				<h1> Phasellus tincidunt diam ut ipsum.</h1>
 
-			<p>
-				We are doing the best we can.
+				<p>
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus tincidunt diam ut ipsum. Donec eget est. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.
 				<br><br>
+				Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.
 			</p>
-			<br><br><br><br><br><br>
+				<br><br><br><br><br><br>
 		</div>
 	</div>
 

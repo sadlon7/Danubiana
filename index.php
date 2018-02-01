@@ -46,9 +46,9 @@ includeHead("Danubiana | Vitajte");
 	<div class="row"> 
 		<div class="column column-home-tiles">
 			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/MARTI LCD.jpg"></a></div>
-			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/park_Lcd_FullHD.jpg"></a></div>
+			<div class="home-tile"><a href="park.php"><img src="assets/images/home-tiles/park_Lcd_FullHD.jpg"></a></div>
 			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/QUIN LCD.jpg"></a></div>
-			<div class="home-tile"><a href="vystava01.php"><img src="assets/images/home-tiles/zbierka_Lcd_FullHD.jpg"></a></div>
+			<div class="home-tile"><a href="zbierka_danubiana.php"><img src="assets/images/home-tiles/zbierka_Lcd_FullHD.jpg"></a></div>
 		</div>
 	</div>
 

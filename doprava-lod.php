@@ -44,9 +44,9 @@ includeHead("DOPRAVA | Danubiana");
 				<a href="vstupne.php">VSTUPNÉ</a>
 			</div>
 
-<!-- 			<div class="subMenuBig">
+			<div class="subMenuBig">
 				<a href="" class="active">DOPRAVA</a>
-			</div> -->
+			</div>
 
 			<div class="transportIcons">
 				<a href="doprava-lietadlo.php">		<img src="assets/images/logos/plane.png" alt="Plane Image">		</a>
