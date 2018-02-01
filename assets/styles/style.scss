@@ -7,35 +7,45 @@ body {
 		display: none;
 	}
 
-	header{
-		.navbar-nav {
-			width: 100%;
-			text-align: center;
-			> li {
-				float: none;
-				display: inline-block;
-			}
+	nav{
+		.container{
+			display: flex;
+			justify-content: center;
 		}
 
-		.navbar-default{
-			background-color: #565656;
-			border-color: #565656;
-			margin:0;
-
-			.navbar-nav>li>a{
-				color: #dedede;
-				font-family: 'Quicksand', sans-serif;
-				font-weight: bold;	
-
-				&.active{
-					color: white;
-				}
-			}
-
-			.navbar-nav>li>a:hover{
-				color: white;	
-			}
+		.danubianaNavLogo{
+			width: 30px; 
+			height: 100%;
 		}
+
+		.danubianaNavFlag{
+			width: 20px; 
+			height: 100%;
+		}
+
+	}
+
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin-right: 0px;
+	}
+
+	.navbar{
+		border-radius: 0px !important;
+		margin-bottom: 0;
+		font-size: 0.9em;
+		font-weight: bold;
+		background-color: #565656;
+		border-style: none;
+	}
+
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+		color: #fff;
+		background-color: #565656;
+		
+	}
+
+	.navbar-inverse .navbar-nav>li>a{
+		color: #d2d2d2;
 	}
 
 	.imgCarousel{
@@ -56,10 +66,7 @@ body {
 
 	.containerWithSpecialWidth{
 		max-width: 850px;
-		//padding: 0 50px 0 50px;
-		//background-color: #f2f2f2;
 		flex-wrap: wrap;
-
 
 		h1{
 			margin: 50px 10px 0 10px;
@@ -184,7 +191,77 @@ body {
 			}
 		}
 
+		
 
+		.transportIcons{
+			display: flex;
+			justify-content: space-around;
+			margin: 2em 0 2em 0;
+
+			img{
+				width: auto;
+				height: 40px;
+				-webkit-filter: grayscale(100%);
+				filter: grayscale(100%);
+				opacity: 0.5;
+				filter: alpha(opacity=50); /* For IE8 and earlier */
+			}
+
+			.active{
+				-webkit-filter: grayscale(0%) !important; /* Safari 6.0 - 9.0 */
+				filter: grayscale(0%) !important;
+				opacity: 1;
+				filter: alpha(opacity=1); /* For IE8 and earlier */
+			}
+		}
+
+		.contactContainer{
+			//background-color: lightBlue;
+			display: flex;
+			justify-content: space-between;
+			margin: 30px 0 30px 0;
+
+
+			.contactCellLeft, .contactCellRight{
+
+				padding: 5px 15px 5px 15px;
+				font-size: 15px;
+				font-weight: bold;
+
+				.contactLabel{
+					color: black;
+					
+					&.redLabel{
+						color: red;
+					}
+				}
+
+				.contactText{
+					color: #959595;
+					margin-top: 7px;
+				}
+			}
+
+			.contactCellLeft{
+				//background-color: yellow;
+				width: 55%;
+			}
+
+			.contactCellRight{
+				//background-color: lightGreen;
+				width: 45%;
+			}
+
+
+		}
+
+		.separator{
+			height: 1px;
+			width: 100%;
+			background-color: #a2a2a2;
+			margin: 50px 0 50px 0;
+
+		}
 
 		.flex-container{
 			//background-color: #e3e3e3;
@@ -283,6 +360,23 @@ body {
 				}
 			}
 		}
+
+		.entranceLabel{
+			//background-color:lightBlue;
+			padding: 0 25% 0 25%;
+			margin-top: 30px;
+
+			.label{
+				margin-top: -20px;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+
+				p{
+					font-size: 15px;
+				}
+			}
+		}
 	}
 
 	.flex-container {
@@ -337,6 +431,7 @@ body {
 		flex-wrap: wrap ;
 		//background-color: #f1f1f1;
 		margin: 10px;
+		text-transform: uppercase;
 
 		a{
 			color: #565656;
@@ -412,16 +507,109 @@ body {
 			height: 200px;
 
 			&.bigger{
-				width: : 100%;
+				width: 100%;
 			}
 		}
-
 
 	}
 
 	#sliderBottom{
-		margin: 100px 0 0 0;
+		margin: 0 0 0 0;
+	}
+
+	form{
+
+		background-color: #e1e1e1;
+		padding: 50px 0 50px 0;
+
+		.form-group{
+			padding: 0 15% 0 15%;
+			color:black;
+			display: flex;
+			justify-content: space-between;
+
+			input{
+				width: 80%;
+			}
+
+			label{
+				margin-right: 20px;
+			}
+		}
+
+		.form-check{
+			display: flex;
+			justify-content: center;
+			color:black;
+
+			input{
+				margin: 4px 15px 0 15px;
+			}
+		}
+
+		.buttons{
+			display: flex;
+			justify-content: center;
+			margin:15px;
+			flex-wrap: wrap;
+
+			button{
+				margin: 5px 20px;
+				min-width: 180px
+			}
+		}
+
+		p{
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	.clubCards{
+		//background-color: red;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		.card{
+			margin: 10px;
+			max-width: 222px;
+
+			.image{
+
+				img{
+					height: 130px;
+					width: auto;
+					border: 1px solid black;
+					border-radius: 5px;
+				}	
+			}
+
+			.price{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 10px;
+
+				.priceText{
+					color: #797979;
+					font-size: 2.5em;
+					margin-left: 10px;
+				}
+			}
+
+			.label{
+				color: black;
+				font-size: 1em;
+				
+				p{
+					margin-top: -15px;
+				}
+
+			}
+			
+		}
+
 	}
 
 }
-

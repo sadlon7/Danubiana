@@ -1,17 +1,17 @@
 <?php
+
+
   function generateSlides($path){ 
 
   	$directory = $path;
   	$images = glob($directory . "*.jpg");
   	$indexOfImage = 1;
 
-  	$output = "<ul id='sliderBottom'>";
+  	$output = "<br><br><br><br><ul id='sliderBottom'>";
 
     shuffle($images);
 
-  	foreach($images as $image)
-  	{
-  		
+  	foreach($images as $image){
   		$output .= "<li class='item-a' data-thumb='" . $image . "'  data-src='" . $image . "'><img src='" . $image . "' alt='" . basename($image,".jpg") . " | Danubiana'></li>";
   		$indexOfImage++;
   	}
@@ -28,12 +28,12 @@
   			auto:true,
   			loop:true,
   			speed: 1000,
-  			pause: 3000,
+  			pause: 2500,
   			thumbItem : 0,
   			autoWidth: true,
   			pauseOnHover: true,
   			getCaptionFromTitleOrAlt: true,
-  			controls: false,
+  			controls: true,
   			slideMargin:3,
         enableDrag: false,
         slideEndAnimation: false,
@@ -49,7 +49,5 @@
 
   	echo $output;
   } 
-
- // **********************************************************************************
 
   ?>

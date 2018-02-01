@@ -3,24 +3,29 @@ body {
   font-family: 'Quicksand', sans-serif; }
   body .lSSlideOuter .lSPager.lSGallery {
     display: none; }
-  body header .navbar-nav {
-    width: 100%;
-    text-align: center; }
-    body header .navbar-nav > li {
-      float: none;
-      display: inline-block; }
-  body header .navbar-default {
+  body nav .container {
+    display: flex;
+    justify-content: center; }
+  body nav .danubianaNavLogo {
+    width: 30px;
+    height: 100%; }
+  body nav .danubianaNavFlag {
+    width: 20px;
+    height: 100%; }
+  body .container-fluid > .navbar-collapse, body .container-fluid > .navbar-header, body .container > .navbar-collapse, body .container > .navbar-header {
+    margin-right: 0px; }
+  body .navbar {
+    border-radius: 0px !important;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-weight: bold;
     background-color: #565656;
-    border-color: #565656;
-    margin: 0; }
-    body header .navbar-default .navbar-nav > li > a {
-      color: #dedede;
-      font-family: 'Quicksand', sans-serif;
-      font-weight: bold; }
-      body header .navbar-default .navbar-nav > li > a.active {
-        color: white; }
-    body header .navbar-default .navbar-nav > li > a:hover {
-      color: white; }
+    border-style: none; }
+  body .navbar-inverse .navbar-nav > .active > a, body .navbar-inverse .navbar-nav > .active > a:focus, body .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #565656; }
+  body .navbar-inverse .navbar-nav > li > a {
+    color: #d2d2d2; }
   body .imgCarousel {
     width: 100%; }
   body .imgMainImage {
@@ -118,6 +123,49 @@ body {
             color: red;
             margin: 0 0.3em 0.3em 0.3em;
             font-size: 1.5em; }
+    body .containerWithSpecialWidth .transportIcons {
+      display: flex;
+      justify-content: space-around;
+      margin: 2em 0 2em 0; }
+      body .containerWithSpecialWidth .transportIcons img {
+        width: auto;
+        height: 40px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* For IE8 and earlier */ }
+      body .containerWithSpecialWidth .transportIcons .active {
+        -webkit-filter: grayscale(0%) !important;
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%) !important;
+        opacity: 1;
+        filter: alpha(opacity=1);
+        /* For IE8 and earlier */ }
+    body .containerWithSpecialWidth .contactContainer {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0 30px 0; }
+      body .containerWithSpecialWidth .contactContainer .contactCellLeft, body .containerWithSpecialWidth .contactContainer .contactCellRight {
+        padding: 5px 15px 5px 15px;
+        font-size: 15px;
+        font-weight: bold; }
+        body .containerWithSpecialWidth .contactContainer .contactCellLeft .contactLabel, body .containerWithSpecialWidth .contactContainer .contactCellRight .contactLabel {
+          color: black; }
+          body .containerWithSpecialWidth .contactContainer .contactCellLeft .contactLabel.redLabel, body .containerWithSpecialWidth .contactContainer .contactCellRight .contactLabel.redLabel {
+            color: red; }
+        body .containerWithSpecialWidth .contactContainer .contactCellLeft .contactText, body .containerWithSpecialWidth .contactContainer .contactCellRight .contactText {
+          color: #959595;
+          margin-top: 7px; }
+      body .containerWithSpecialWidth .contactContainer .contactCellLeft {
+        width: 55%; }
+      body .containerWithSpecialWidth .contactContainer .contactCellRight {
+        width: 45%; }
+    body .containerWithSpecialWidth .separator {
+      height: 1px;
+      width: 100%;
+      background-color: #a2a2a2;
+      margin: 50px 0 50px 0; }
     body .containerWithSpecialWidth .flex-container .pageMap {
       list-style: none;
       padding: 5px;
@@ -175,6 +223,16 @@ body {
         justify-content: flex-end; }
         body .containerWithSpecialWidth .flex-container footer .footerLogos .logo {
           margin-left: 1em; }
+    body .containerWithSpecialWidth .entranceLabel {
+      padding: 0 25% 0 25%;
+      margin-top: 30px; }
+      body .containerWithSpecialWidth .entranceLabel .label {
+        margin-top: -20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        body .containerWithSpecialWidth .entranceLabel .label p {
+          font-size: 15px; }
   body .flex-container {
     display: flex;
     justify-content: space-between; }
@@ -208,7 +266,8 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px; }
+    margin: 10px;
+    text-transform: uppercase; }
     body .subMenuSmall a {
       color: #565656;
       text-decoration: none;
@@ -249,8 +308,63 @@ body {
   body .lightSlider img {
     height: 200px; }
     body .lightSlider img.bigger {
-      height: 500px; }
+      width: 100%; }
   body #sliderBottom {
-    margin: 100px 0 0 0; }
+    margin: 0 0 0 0; }
+  body form {
+    background-color: #e1e1e1;
+    padding: 50px 0 50px 0; }
+    body form .form-group {
+      padding: 0 15% 0 15%;
+      color: black;
+      display: flex;
+      justify-content: space-between; }
+      body form .form-group input {
+        width: 80%; }
+      body form .form-group label {
+        margin-right: 20px; }
+    body form .form-check {
+      display: flex;
+      justify-content: center;
+      color: black; }
+      body form .form-check input {
+        margin: 4px 15px 0 15px; }
+    body form .buttons {
+      display: flex;
+      justify-content: center;
+      margin: 15px;
+      flex-wrap: wrap; }
+      body form .buttons button {
+        margin: 5px 20px;
+        min-width: 180px; }
+    body form p {
+      display: flex;
+      justify-content: center; }
+  body .clubCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    body .clubCards .card {
+      margin: 10px;
+      max-width: 222px; }
+      body .clubCards .card .image img {
+        height: 130px;
+        width: auto;
+        border: 1px solid black;
+        border-radius: 5px; }
+      body .clubCards .card .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+        body .clubCards .card .price .priceText {
+          color: #797979;
+          font-size: 2.5em;
+          margin-left: 10px; }
+      body .clubCards .card .label {
+        color: black;
+        font-size: 1em; }
+        body .clubCards .card .label p {
+          margin-top: -15px; }
 
 /*# sourceMappingURL=style.css.map */

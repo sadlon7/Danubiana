@@ -5,28 +5,33 @@ includeHead("Aktuálne výstavy | Danubiana");
 
 <body>
 
-	<header>
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container-fluid">
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<a href="index.php"><img class="imgCarousel" src="assets/images/logos/danubianaLogo.png" alt="carousel" style="width: 30px; height: 100%;"></a>
-
-						<li><a href="o_nas.php">DANUBIANA</a></li>
-						<li><a href="aktualne_vystavy.php"  class="active">VYSTAVY</a></li>
-						<li><a href="zbierka_meulensteen.php">ZBIERKA</a></li>
-						<li><a href="park.php">PARK</a></li>
-						<li><a href="art_shop.php">ARTSHOP</a></li>
-						<li><a href="art_cafe.php">ART CAFFE</a></li>
-						<li><a href="klub.php">KLUB</a></li>
-						<li><a href="kontakt.php">KONTAKT</a></li>
-
-						<a href=""><img class="imgCarousel" src="assets/images/logos/flagUK.png" alt="carousel" style="width: 20px; height: 100%;"></a>
-					</ul>
-				</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
 			</div>
-		</nav>
-	</header>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.php"><img class="danubianaNavLogo" src="assets/images/logos/danubianaLogo.png" alt="carousel""></a></li>
+					
+					<li><a href="o_nas.php">DANUBIANA</a></li>
+					<li class="active"><a href="aktualne_vystavy.php">VYSTAVY</a></li>
+					<li><a href="zbierka_meulensteen.php">ZBIERKA</a></li>
+					<li><a href="park.php">PARK</a></li>
+					<li><a href="art_shop.php">ARTSHOP</a></li>
+					<li><a href="art_cafe.php">ART CAFFE</a></li>
+					<li><a href="klub.php">KLUB</a></li>
+					<li><a href="kontakt.php">KONTAKT</a></li>
+
+					<li><a href=""><img class="danubianaNavFlag" src="assets/images/logos/flagUK.png" alt="carousel"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 
 	<div class="container containerWithSpecialWidth">
@@ -54,7 +59,7 @@ includeHead("Aktuálne výstavy | Danubiana");
 
 				<a href="vystava01.php">
 					<div class="expositionRow">
-						<img src="assets\images\carousel-galery\zbierka_danubiana\litografia(1).jpg">
+						<img src="assets\images\carousel-galery\zbierka_danubiana\Svetozar Ilavsky - Ked som sam doma.jpg">
 						<div class="expositionLabel">
 							<div class="expositionLabelArtistName">Francesca Martí</div>
 							<div class="expositionLabelYear">1947</div>
@@ -67,12 +72,12 @@ includeHead("Aktuálne výstavy | Danubiana");
 
 				<a href="vystava01.php">
 					<div class="expositionRow">
-						<img src="assets\images\carousel-galery\o_nas\DSC_1618.jpg">
+						<img src="assets\images\carousel-galery\zbierka_danubiana\Sabbathove divadlo 2009 akryl na platne  180x180 cm.jpg">
 						<div class="expositionLabel">
-							<div class="expositionLabelArtistName">Martin 'Sali 'Sadlon</div>
-							<div class="expositionLabelYear">1993</div>
-							<div class="expositionLabelCountry">SVK</div>
-							<div class="expositionLabelName">Tazky zivot studenta</div>
+							<div class="expositionLabelArtistName">Meno Priezvisko</div>
+							<div class="expositionLabelYear">1900</div>
+							<div class="expositionLabelCountry">EU</div>
+							<div class="expositionLabelName">Nazov diela</div>
 							<div class="expositionLabelDate">20. November 2018 – 20. Marec 2019</div>
 						</div>
 					</div>
@@ -80,13 +85,39 @@ includeHead("Aktuálne výstavy | Danubiana");
 
 				<a href="vystava01.php">
 					<div class="expositionRow">
-						<img src="assets\images\carousel-galery\o_nas\DSC_3052.jpg">
+						<img src="assets\images\carousel-galery\zbierka_danubiana\Jan_svankmajer-Parohaty_krab-front.jpg">
 						<div class="expositionLabel">
-							<div class="expositionLabelArtistName">Andrej Hyll</div>
-							<div class="expositionLabelYear">1996</div>
-							<div class="expositionLabelCountry">PL</div>
-							<div class="expositionLabelName">#tragediaMojhoZivota</div>
-							<div class="expositionLabelDate">01. Augus 2017 – 30. September 2018</div>
+							<div class="expositionLabelArtistName">Meno Priezvisko</div>
+							<div class="expositionLabelYear">1900</div>
+							<div class="expositionLabelCountry">EU</div>
+							<div class="expositionLabelName">Nazov diela</div>
+							<div class="expositionLabelDate">20. November 2018 – 20. Marec 2019</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="vystava01.php">
+					<div class="expositionRow">
+						<img src="assets\images\carousel-galery\zbierka_danubiana\L1240348.jpg">
+						<div class="expositionLabel">
+							<div class="expositionLabelArtistName">Meno Priezvisko</div>
+							<div class="expositionLabelYear">1900</div>
+							<div class="expositionLabelCountry">EU</div>
+							<div class="expositionLabelName">Nazov diela</div>
+							<div class="expositionLabelDate">20. November 2018 – 20. Marec 2019</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="vystava01.php">
+					<div class="expositionRow">
+						<img src="assets\images\carousel-galery\zbierka_danubiana\VARHO_Lino Error II.jpg">
+						<div class="expositionLabel">
+							<div class="expositionLabelArtistName">Meno Priezvisko</div>
+							<div class="expositionLabelYear">1900</div>
+							<div class="expositionLabelCountry">EU</div>
+							<div class="expositionLabelName">Nazov diela</div>
+							<div class="expositionLabelDate">20. November 2018 – 20. Marec 2019</div>
 						</div>
 					</div>
 				</a>
@@ -99,7 +130,7 @@ includeHead("Aktuálne výstavy | Danubiana");
 				<br><br>
 				Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est. -->
 			</p>
-			<br><br><br><br><br><br>
+			<br><br><br>
 		</div>
 	</div>
 
